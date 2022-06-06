@@ -13,13 +13,13 @@
   - *Photoshop*
   - *Blender*
 ## Code Example
-``` function Multiply(a, b) {
-     return a * b;
-    }
-```
-
+  ``` 
+  function Multiply(a, b) {
+  return a * b;
+  }
+  ```
 ## Education
-   University: Belarusian State Pedagogical University named after M. Tank, teacher of mathematics and computer science	
+  **University:** Belarusian State Pedagogical University named after M. Tank, teacher of mathematics and computer science	
 ## Languages
   * **Russian** - native speaker.
   * **English** – B1
