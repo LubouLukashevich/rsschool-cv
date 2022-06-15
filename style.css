@@ -1,0 +1,139 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; padding: 0;
+    background-image: url(./assets/img/fon.jpg);
+    background-repeat: repeat;
+    font-family: Verdana, san-serif;
+    font-size: 0.8rem;
+    }
+    
+main {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    
+.main-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+section.left {
+    float: left;
+     width:40%;
+     padding-top: 40px;
+    }
+    
+section.right {
+    padding-left: 20px;
+    float: right;
+    width: 58%;	
+    border-left: 1px solid #00b38f;
+    }
+    
+    
+@media (max-width: 768px) {
+     section.left {
+     width:100%;
+    }
+     section.right {
+       width:100%
+      }
+    }
+    
+@media (min-width: 1400px) {
+     section.left {
+     width:20%;
+    }
+     section.right {
+       width:78%;
+      }
+    }
+    
+h1{
+    font-family: Cambria, Times New Roman, serif;
+    color: #00b38f;
+    font-size: 32px;
+    }
+    
+.profession {
+    color: gray;
+    font-size: 80%;
+    font-weight: normal;
+    }
+    
+h2 {
+    font-family: Cambria, Times New Roman, serif;
+    color: #00cca3;
+    }
+    
+p {
+      font-size: 0.8rem;
+    }
+    
+li, p {
+      line-height: 1.5;
+    }
+    
+    
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    }
+    
+.contact {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 0.8rem;
+    color: black;
+    }
+    
+li {
+    color: #00b38f;
+    }
+    
+li span {
+    color: black;
+    }
+    
+pre {
+    background-color: #e0e0e0;
+    width: 300px;
+    padding-left: 10px;
+    }
+    
+a {
+    text-decoration: none;	
+    color: black;
+    }
+    
+a:hover {
+    color: #00cca3;
+    }
+    
+    
+footer {
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    }
+    
+table {
+    width: 100%;
+    }
+    
+td.copy{
+    text-align: left;
+    }
+    
+td.logo{
+    text-align: right;
+    }
