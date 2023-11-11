@@ -1,2 +1,1 @@
-# rsschool-cv
-Task for CV
+https://luboulukashevich.github.io/rsschool-cv/cv
