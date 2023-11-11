@@ -14,7 +14,9 @@
   - *Blender*
 ## Code Example
   ``` 
-  
+  function coffee(str) {
+     return str.replace(/coffee/gi, 'COFFEE')
+}
   ```
 ## Education
   **University:** Belarusian State Pedagogical University named after M. Tank, teacher of mathematics and computer science	
