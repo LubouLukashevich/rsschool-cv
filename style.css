@@ -1,0 +1,100 @@
+body {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  background-image: url(./img/fon.jpg);
+  background-repeat: repeat;
+  font-family: Verdana, san-serif;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  }
+
+section {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+section:hover {
+  background-color: rgba(29, 115, 115, 0.6);
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.column > section {
+  flex-basis: 30%;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+.myphoto {
+  border-radius: 50%;
+  margin: 0 5rem;
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  color: #009999;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-align: center;
+  color: gray;
+}
+
+h3 {
+  color: #5CCCCC;
+}
+
+a, 
+a:visited {
+  color: #5CCCCC;
+}
+
+section:hover > h2 {
+  color: #5CCCCC;
+}
+
+section:hover  a {
+  color: white;
+}
+
+.column:hover > div > h1 {
+  color:  white;
+}
+
+.column:hover > div > h2 {
+  color:  #5CCCCC;
+}
+
+.about > h2 {
+  text-align: left;
+}
+
+hr {
+  margin: 1rem;
+}
+
+.example {
+  height: 300px;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.nomark {
+  list-style-type: none;
+  text-align: center;
+}
