@@ -59,12 +59,17 @@ h3 {
   color: #5CCCCC;
 }
 
-a {
+a, 
+a:visited {
   color: #5CCCCC;
 }
 
 section:hover > h2 {
   color: #5CCCCC;
+}
+
+section:hover  a {
+  color: white;
 }
 
 .column:hover > div > h1 {
@@ -81,4 +86,15 @@ section:hover > h2 {
 
 hr {
   margin: 1rem;
+}
+
+.example {
+  height: 300px;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.nomark {
+  list-style-type: none;
+  text-align: center;
 }
